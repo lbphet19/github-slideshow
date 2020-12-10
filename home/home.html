@@ -4,15 +4,17 @@
    	<meta charset="utf-8">
    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
    	<title></title>
-   	<link rel="stylesheet" href="style.css">
+      <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
    	<link rel="stylesheet" href="../CSS/bootstrap.css">
+      <link rel="stylesheet" href="style.css">
       <script src="https://kit.fontawesome.com/2b269abdc6.js" crossorigin="anonymous"></script>
    </head>
    <body>
 
    	<div class="top-bar container-fluid">
-   		<div class="row">
-   			<div class="left-menu col-4">
+   		<div class="header container-fluid">
+            <!-- <div class="row"> -->
+   			<div class="left-menu">
    				<ul>
    					<li class="left-menu-1"><a href="#">Home</a></li>
    					<li class="left-menu-2"><a href="#">Shop</a></li>
@@ -22,10 +24,10 @@
    				</ul>
    			</div>
    			<!-- left-menu -->
-   			<div class="logo col-4 center">
+   			<div class="logo align-self-center">
    				<img src="logo-removebg-preview.png" alt="logo-zonex">
    			</div>  
-   			<div class="right-menu col-4">
+   			<div class="right-menu">
    				<ul>
    					<li class="right-menu-1"><a href="#"><img src="search-icon.png" alt="search"></a></li>
    					<li class="right-menu-2"><a href="#"><img src="user-icon.png" alt="user"></a></li>
@@ -34,8 +36,9 @@
    				</ul>
    			</div>
    			<!-- right-menu -->
-   		</div>
-   		<!-- row -->
+            <!-- </div>
+ -->   	</div>
+   		<!-- header-->
    		<div class="main-caption">
    			<p class="main-caption-top">Fall-Winter Clearance Sales</p>
    			<p class="main-caption-bottom">All Sale Items are Final Sale / Free Shipping on ALL Orders</p>
@@ -85,17 +88,19 @@
    		<!-- card-deck -->
    	</div>
    	<!-- intro -->
-   	<div class="row justify-content-center categories">
-   		<div class="column">
-   			<ul>
-   				<li><a href="#" class="categories-best-sellers">Best Sellers</a></li>
-   				<li><a href="#" class="categories-new-products">New Products</a></li>
-   				<li><a href="#" class="categories-sale-products">Sale Products</a></li>
-   			</ul>		
-   		</div>
-   		<!-- </col> -->
-   	</div>
-   	<!-- /row -->
+      <div class="container-fluid">
+      	<div class="row justify-content-center categories">
+      		<div class="column">
+      			<ul>
+      				<li><a href="#" class="categories-best-sellers">Best Sellers</a></li>
+      				<li><a href="#" class="categories-new-products">New Products</a></li>
+      				<li><a href="#" class="categories-sale-products">Sale Products</a></li>
+      			</ul>		
+      		</div>
+      		<!-- </col> -->
+      	</div>
+      	<!-- /row -->
+      </div>
       <div class="container-fluid">
          <div class="sellers-row-1 row">
             <div class="col">
@@ -123,8 +128,10 @@
                   <div class="card-body">
                      <div class="card-title">Blue Raincoat</div>
                      <div class="card-text">ADD TO CART
+                        <div class="sellers-row-1-card-no-3-icons" style="display: flex">
                         <span><a href=""><i class="fas fa-search"></i></a></span>
                         <span><a href=""><i class="far fa-heart"></i></a></span>
+                        </div>
                      </div>
                   </div>
                </div>	
@@ -192,6 +199,34 @@
          <!-- sellers-row-2 -->
       </div>
       <!-- container-fluid -->
+      <div class="container-fluid">
+         <div class="row justify-content-center">
+            <div class="load-more">
+               <p>Load more</p>
+               <a href=""><i class="fas fa-angle-double-down"></i></a>
+
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid other-options">
+         
+            <div class="sportswear text-center">
+               <p>Men's sportswear</p>
+               <div class="read-more-cover">
+                  <a href="">Read more</a>
+               </div>
+            </div>
+            <div class="find-your-fit text-center">
+               <p>Find Your Fit</p>
+               <div class="read-more-cover">
+                  <a href="">Read more</a>
+               </div>
+            </div>
+      </div>
+      <!-- other options -->
+      <div class="container-fluid footer">
+         abc
+      </div>
       <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
    </body>
